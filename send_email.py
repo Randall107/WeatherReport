@@ -5,7 +5,7 @@ import smtplib
 class email:
     def send(email_list: List[str], content):
         sender = "randall107hasalreadybeentaken@gmail.com"
-        password = "zluv sihm xzkg iage"
+        password = ""
         subject = "Today's Weather Report"
         body = f"""
         {content}
